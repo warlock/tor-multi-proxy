@@ -1,0 +1,3172 @@
+***
+cc _.o -L../lib
+
+***
+cc -c -o _.o -c -O2 -x c++ -DQS  -Dm64  _.c
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘dummy’ was not declared in this scope
+ main(){ dummy();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘dummy’ was not declared in this scope
+ main(){ dummy();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:13: error: ‘gxx’ was not declared in this scope
+ main(){ gxx();}
+             ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:13: error: ‘gxx’ was not declared in this scope
+ main(){ gxx();}
+             ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘p2ll’ was not declared in this scope
+ main(){ p2ll();}
+              ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘p2ll’ was not declared in this scope
+ main(){ p2ll();}
+              ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:13: error: ‘p2i’ was not declared in this scope
+ main(){ p2i();}
+             ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:13: error: ‘p2i’ was not declared in this scope
+ main(){ p2i();}
+             ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘dlopen’ was not declared in this scope
+ main(){ dlopen();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘dlopen’ was not declared in this scope
+ main(){ dlopen();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘uname’ was not declared in this scope
+ main(){ uname();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘uname’ was not declared in this scope
+ main(){ uname();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘uname’ was not declared in this scope
+ main(){ uname();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘uname’ was not declared in this scope
+ main(){ uname();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘bcopy’ was not declared in this scope
+ main(){ bcopy();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘bcopy’ was not declared in this scope
+ main(){ bcopy();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘bzero’ was not declared in this scope
+ main(){ bzero();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘bzero’ was not declared in this scope
+ main(){ bzero();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘putenv’ was not declared in this scope
+ main(){ putenv();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘putenv’ was not declared in this scope
+ main(){ putenv();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘unsetenv’ was not declared in this scope
+ main(){ unsetenv();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘unsetenv’ was not declared in this scope
+ main(){ unsetenv();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘unsetenv_’ was not declared in this scope
+ main(){ unsetenv_();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘unsetenv_’ was not declared in this scope
+ main(){ unsetenv_();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘alloca’ was not declared in this scope
+ main(){ alloca();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘alloca’ was not declared in this scope
+ main(){ alloca();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘old_alloca’ was not declared in this scope
+ main(){ old_alloca();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘old_alloca’ was not declared in this scope
+ main(){ old_alloca();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘alloca’ was not declared in this scope
+ main(){ alloca();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘alloca’ was not declared in this scope
+ main(){ alloca();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘malloc_size’ was not declared in this scope
+ main(){ malloc_size();}
+                     ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘malloc_size’ was not declared in this scope
+ main(){ malloc_size();}
+                     ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘malloc_size’ was not declared in this scope
+ main(){ malloc_size();}
+                     ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘malloc_size’ was not declared in this scope
+ main(){ malloc_size();}
+                     ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘killpg’ was not declared in this scope
+ main(){ killpg();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘killpg’ was not declared in this scope
+ main(){ killpg();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘setsid’ was not declared in this scope
+ main(){ setsid();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘setsid’ was not declared in this scope
+ main(){ setsid();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sigmask’ was not declared in this scope
+ main(){ sigmask();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sigmask’ was not declared in this scope
+ main(){ sigmask();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘sigsetmask’ was not declared in this scope
+ main(){ sigsetmask();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘sigsetmask’ was not declared in this scope
+ main(){ sigsetmask();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘setresuid’ was not declared in this scope
+ main(){ setresuid();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘setresuid’ was not declared in this scope
+ main(){ setresuid();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘seteuid’ was not declared in this scope
+ main(){ seteuid();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘seteuid’ was not declared in this scope
+ main(){ seteuid();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘setegid’ was not declared in this scope
+ main(){ setegid();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘setegid’ was not declared in this scope
+ main(){ setegid();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘unaligned’ was not declared in this scope
+ main(){ unaligned();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘unaligned’ was not declared in this scope
+ main(){ unaligned();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘timegm’ was not declared in this scope
+ main(){ timegm();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘timegm’ was not declared in this scope
+ main(){ timegm();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘usleep’ was not declared in this scope
+ main(){ usleep();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘usleep’ was not declared in this scope
+ main(){ usleep();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘usleep’ was not declared in this scope
+ main(){ usleep();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘usleep’ was not declared in this scope
+ main(){ usleep();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ualarm’ was not declared in this scope
+ main(){ ualarm();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ualarm’ was not declared in this scope
+ main(){ ualarm();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ualarm’ was not declared in this scope
+ main(){ ualarm();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ualarm’ was not declared in this scope
+ main(){ ualarm();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘poll’ was not declared in this scope
+ main(){ poll();}
+              ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘poll’ was not declared in this scope
+ main(){ poll();}
+              ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘select’ was not declared in this scope
+ main(){ select();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘select’ was not declared in this scope
+ main(){ select();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘poll1’ was not declared in this scope
+ main(){ poll1();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘poll1’ was not declared in this scope
+ main(){ poll1();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘poll2’ was not declared in this scope
+ main(){ poll2();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘poll2’ was not declared in this scope
+ main(){ poll2();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘recv’ was not declared in this scope
+ main(){ recv();}
+              ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘recv’ was not declared in this scope
+ main(){ recv();}
+              ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sendFd1’ was not declared in this scope
+ main(){ sendFd1();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sendFd1’ was not declared in this scope
+ main(){ sendFd1();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sendFd2’ was not declared in this scope
+ main(){ sendFd2();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sendFd2’ was not declared in this scope
+ main(){ sendFd2();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sendFd3’ was not declared in this scope
+ main(){ sendFd3();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sendFd3’ was not declared in this scope
+ main(){ sendFd3();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘closesocket’ was not declared in this scope
+ main(){ closesocket();}
+                     ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘closesocket’ was not declared in this scope
+ main(){ closesocket();}
+                     ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘yp_match’ was not declared in this scope
+ main(){ yp_match();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘yp_match’ was not declared in this scope
+ main(){ yp_match();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘endhostent’ was not declared in this scope
+ main(){ endhostent();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘endhostent’ was not declared in this scope
+ main(){ endhostent();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘gethostbyname2’ was not declared in this scope
+ main(){ gethostbyname2();}
+                        ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘gethostbyname2’ was not declared in this scope
+ main(){ gethostbyname2();}
+                        ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘gethostbyname2’ was not declared in this scope
+ main(){ gethostbyname2();}
+                        ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘gethostbyname2’ was not declared in this scope
+ main(){ gethostbyname2();}
+                        ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘socklen_u’ was not declared in this scope
+ main(){ socklen_u();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘socklen_u’ was not declared in this scope
+ main(){ socklen_u();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘socklen_s’ was not declared in this scope
+ main(){ socklen_s();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘socklen_s’ was not declared in this scope
+ main(){ socklen_s();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘socketpair’ was not declared in this scope
+ main(){ socketpair();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘socketpair’ was not declared in this scope
+ main(){ socketpair();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘inet_aton’ was not declared in this scope
+ main(){ inet_aton();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘inet_aton’ was not declared in this scope
+ main(){ inet_aton();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘setferror’ was not declared in this scope
+ main(){ setferror();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘setferror’ was not declared in this scope
+ main(){ setferror();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘setferror’ was not declared in this scope
+ main(){ setferror();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘setferror’ was not declared in this scope
+ main(){ setferror();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘strerror’ was not declared in this scope
+ main(){ strerror();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘strerror’ was not declared in this scope
+ main(){ strerror();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘snprintf’ was not declared in this scope
+ main(){ snprintf();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘snprintf’ was not declared in this scope
+ main(){ snprintf();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘strcasecmp’ was not declared in this scope
+ main(){ strcasecmp();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘strcasecmp’ was not declared in this scope
+ main(){ strcasecmp();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘strcasestr’ was not declared in this scope
+ main(){ strcasestr();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘strcasestr’ was not declared in this scope
+ main(){ strcasestr();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘strcasestr’ was not declared in this scope
+ main(){ strcasestr();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘strcasestr’ was not declared in this scope
+ main(){ strcasestr();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘strrcasestr’ was not declared in this scope
+ main(){ strrcasestr();}
+                     ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘strrcasestr’ was not declared in this scope
+ main(){ strrcasestr();}
+                     ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘strstr’ was not declared in this scope
+ main(){ strstr();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘strstr’ was not declared in this scope
+ main(){ strstr();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘strdup’ was not declared in this scope
+ main(){ strdup();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘strdup’ was not declared in this scope
+ main(){ strdup();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘strncpy’ was not declared in this scope
+ main(){ strncpy();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘strncpy’ was not declared in this scope
+ main(){ strncpy();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘setbuffer’ was not declared in this scope
+ main(){ setbuffer();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘setbuffer’ was not declared in this scope
+ main(){ setbuffer();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘setlinebuf’ was not declared in this scope
+ main(){ setlinebuf();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘setlinebuf’ was not declared in this scope
+ main(){ setlinebuf();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘syslog’ was not declared in this scope
+ main(){ syslog();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘syslog’ was not declared in this scope
+ main(){ syslog();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘syslog’ was not declared in this scope
+ main(){ syslog();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘syslog’ was not declared in this scope
+ main(){ syslog();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘syscall’ was not declared in this scope
+ main(){ syscall();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘syscall’ was not declared in this scope
+ main(){ syscall();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘fork’ was not declared in this scope
+ main(){ fork();}
+              ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘fork’ was not declared in this scope
+ main(){ fork();}
+              ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘fork’ was not declared in this scope
+ main(){ fork();}
+              ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘fork’ was not declared in this scope
+ main(){ fork();}
+              ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ptrace’ was not declared in this scope
+ main(){ ptrace();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ptrace’ was not declared in this scope
+ main(){ ptrace();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ptrace’ was not declared in this scope
+ main(){ ptrace();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ptrace’ was not declared in this scope
+ main(){ ptrace();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ptrace’ was not declared in this scope
+ main(){ ptrace();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘ptrace’ was not declared in this scope
+ main(){ ptrace();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘sigaction’ was not declared in this scope
+ main(){ sigaction();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘sigaction’ was not declared in this scope
+ main(){ sigaction();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘sigaction’ was not declared in this scope
+ main(){ sigaction();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘sigaction’ was not declared in this scope
+ main(){ sigaction();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘futimes’ was not declared in this scope
+ main(){ futimes();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘futimes’ was not declared in this scope
+ main(){ futimes();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘futimes’ was not declared in this scope
+ main(){ futimes();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘futimes’ was not declared in this scope
+ main(){ futimes();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘futimes_’ was not declared in this scope
+ main(){ futimes_();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘futimes_’ was not declared in this scope
+ main(){ futimes_();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘utimes’ was not declared in this scope
+ main(){ utimes();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘utimes’ was not declared in this scope
+ main(){ utimes();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘utimes’ was not declared in this scope
+ main(){ utimes();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘utimes’ was not declared in this scope
+ main(){ utimes();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘fsync’ was not declared in this scope
+ main(){ fsync();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘fsync’ was not declared in this scope
+ main(){ fsync();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fchmod’ was not declared in this scope
+ main(){ fchmod();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fchmod’ was not declared in this scope
+ main(){ fchmod();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fchmod’ was not declared in this scope
+ main(){ fchmod();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fchmod’ was not declared in this scope
+ main(){ fchmod();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fchown’ was not declared in this scope
+ main(){ fchown();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fchown’ was not declared in this scope
+ main(){ fchown();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fchown’ was not declared in this scope
+ main(){ fchown();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fchown’ was not declared in this scope
+ main(){ fchown();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘chown’ was not declared in this scope
+ main(){ chown();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘chown’ was not declared in this scope
+ main(){ chown();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘link’ was not declared in this scope
+ main(){ link();}
+              ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘link’ was not declared in this scope
+ main(){ link();}
+              ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘link’ was not declared in this scope
+ main(){ link();}
+              ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘link’ was not declared in this scope
+ main(){ link();}
+              ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘symlink’ was not declared in this scope
+ main(){ symlink();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘symlink’ was not declared in this scope
+ main(){ symlink();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘symlink’ was not declared in this scope
+ main(){ symlink();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘symlink’ was not declared in this scope
+ main(){ symlink();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘readlink’ was not declared in this scope
+ main(){ readlink();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘readlink’ was not declared in this scope
+ main(){ readlink();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘lstat’ was not declared in this scope
+ main(){ lstat();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘lstat’ was not declared in this scope
+ main(){ lstat();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘lstat’ was not declared in this scope
+ main(){ lstat();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘lstat’ was not declared in this scope
+ main(){ lstat();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘statvfs’ was not declared in this scope
+ main(){ statvfs();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘statvfs’ was not declared in this scope
+ main(){ statvfs();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘statvfs’ was not declared in this scope
+ main(){ statvfs();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘statvfs’ was not declared in this scope
+ main(){ statvfs();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘statvfs’ was not declared in this scope
+ main(){ statvfs();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘statvfs’ was not declared in this scope
+ main(){ statvfs();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘vfork’ was not declared in this scope
+ main(){ vfork();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘vfork’ was not declared in this scope
+ main(){ vfork();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘wait3’ was not declared in this scope
+ main(){ wait3();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘wait3’ was not declared in this scope
+ main(){ wait3();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘waitpid’ was not declared in this scope
+ main(){ waitpid();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘waitpid’ was not declared in this scope
+ main(){ waitpid();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘getmsg’ was not declared in this scope
+ main(){ getmsg();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘getmsg’ was not declared in this scope
+ main(){ getmsg();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘chroot’ was not declared in this scope
+ main(){ chroot();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘chroot’ was not declared in this scope
+ main(){ chroot();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘nice’ was not declared in this scope
+ main(){ nice();}
+              ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘nice’ was not declared in this scope
+ main(){ nice();}
+              ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘getrlimit’ was not declared in this scope
+ main(){ getrlimit();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘getrlimit’ was not declared in this scope
+ main(){ getrlimit();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘getrlimit’ was not declared in this scope
+ main(){ getrlimit();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘getrlimit’ was not declared in this scope
+ main(){ getrlimit();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘getrusage’ was not declared in this scope
+ main(){ getrusage();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘getrusage’ was not declared in this scope
+ main(){ getrusage();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘getrusage’ was not declared in this scope
+ main(){ getrusage();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘getrusage’ was not declared in this scope
+ main(){ getrusage();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘_spawnvp’ was not declared in this scope
+ main(){ _spawnvp();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘_spawnvp’ was not declared in this scope
+ main(){ _spawnvp();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘spawnvp’ was not declared in this scope
+ main(){ spawnvp();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘spawnvp’ was not declared in this scope
+ main(){ spawnvp();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘pawnvp’ was not declared in this scope
+ main(){ pawnvp();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘pawnvp’ was not declared in this scope
+ main(){ pawnvp();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘spawnvp’ was not declared in this scope
+ main(){ spawnvp();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘spawnvp’ was not declared in this scope
+ main(){ spawnvp();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘spawnvp_’ was not declared in this scope
+ main(){ spawnvp_();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘spawnvp_’ was not declared in this scope
+ main(){ spawnvp_();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘system’ was not declared in this scope
+ main(){ system();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘system’ was not declared in this scope
+ main(){ system();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘system’ was not declared in this scope
+ main(){ system();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘system’ was not declared in this scope
+ main(){ system();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘mutex’ was not declared in this scope
+ main(){ mutex();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘mutex’ was not declared in this scope
+ main(){ mutex();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘mutex’ was not declared in this scope
+ main(){ mutex();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘mutex’ was not declared in this scope
+ main(){ mutex();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘pthread_create’ was not declared in this scope
+ main(){ pthread_create();}
+                        ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘pthread_create’ was not declared in this scope
+ main(){ pthread_create();}
+                        ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘_lwp_create’ was not declared in this scope
+ main(){ _lwp_create();}
+                     ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘_lwp_create’ was not declared in this scope
+ main(){ _lwp_create();}
+                     ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘lwp_create’ was not declared in this scope
+ main(){ lwp_create();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘lwp_create’ was not declared in this scope
+ main(){ lwp_create();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘pthread_create’ was not declared in this scope
+ main(){ pthread_create();}
+                        ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘pthread_create’ was not declared in this scope
+ main(){ pthread_create();}
+                        ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘pthread_kill’ was not declared in this scope
+ main(){ pthread_kill();}
+                      ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘pthread_kill’ was not declared in this scope
+ main(){ pthread_kill();}
+                      ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘pthread_kill’ was not declared in this scope
+ main(){ pthread_kill();}
+                      ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘pthread_kill’ was not declared in this scope
+ main(){ pthread_kill();}
+                      ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘_beginthread’ was not declared in this scope
+ main(){ _beginthread();}
+                      ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘_beginthread’ was not declared in this scope
+ main(){ _beginthread();}
+                      ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘nothread’ was not declared in this scope
+ main(){ nothread();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘nothread’ was not declared in this scope
+ main(){ nothread();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘flock’ was not declared in this scope
+ main(){ flock();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘flock’ was not declared in this scope
+ main(){ flock();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘fcntl’ was not declared in this scope
+ main(){ fcntl();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘fcntl’ was not declared in this scope
+ main(){ fcntl();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘flockfile’ was not declared in this scope
+ main(){ flockfile();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘flockfile’ was not declared in this scope
+ main(){ flockfile();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘FMODE’ was not declared in this scope
+ main(){ FMODE();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘FMODE’ was not declared in this scope
+ main(){ FMODE();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘getwd’ was not declared in this scope
+ main(){ getwd();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘getwd’ was not declared in this scope
+ main(){ getwd();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘getcwd’ was not declared in this scope
+ main(){ getcwd();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘getcwd’ was not declared in this scope
+ main(){ getcwd();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘opendir’ was not declared in this scope
+ main(){ opendir();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘opendir’ was not declared in this scope
+ main(){ opendir();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘scandir’ was not declared in this scope
+ main(){ scandir();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘scandir’ was not declared in this scope
+ main(){ scandir();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘pam_start’ was not declared in this scope
+ main(){ pam_start();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘pam_start’ was not declared in this scope
+ main(){ pam_start();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘forkpty’ was not declared in this scope
+ main(){ forkpty();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘forkpty’ was not declared in this scope
+ main(){ forkpty();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘forkpty’ was not declared in this scope
+ main(){ forkpty();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘forkpty’ was not declared in this scope
+ main(){ forkpty();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘forkpty1’ was not declared in this scope
+ main(){ forkpty1();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘forkpty1’ was not declared in this scope
+ main(){ forkpty1();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘forkpty’ was not declared in this scope
+ main(){ forkpty();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘forkpty’ was not declared in this scope
+ main(){ forkpty();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘tcsetattr’ was not declared in this scope
+ main(){ tcsetattr();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘tcsetattr’ was not declared in this scope
+ main(){ tcsetattr();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘Stty’ was not declared in this scope
+ main(){ Stty();}
+              ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:14: error: ‘Stty’ was not declared in this scope
+ main(){ Stty();}
+              ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘getwinsize’ was not declared in this scope
+ main(){ getwinsize();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘getwinsize’ was not declared in this scope
+ main(){ getwinsize();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘getwinsize’ was not declared in this scope
+ main(){ getwinsize();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘getwinsize’ was not declared in this scope
+ main(){ getwinsize();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘sgTTy’ was not declared in this scope
+ main(){ sgTTy();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘sgTTy’ was not declared in this scope
+ main(){ sgTTy();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘sgTTy’ was not declared in this scope
+ main(){ sgTTy();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘sgTTy’ was not declared in this scope
+ main(){ sgTTy();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘setlogin’ was not declared in this scope
+ main(){ setlogin();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘setlogin’ was not declared in this scope
+ main(){ setlogin();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘mkfifo’ was not declared in this scope
+ main(){ mkfifo();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘mkfifo’ was not declared in this scope
+ main(){ mkfifo();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘mkfifo’ was not declared in this scope
+ main(){ mkfifo();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘mkfifo’ was not declared in this scope
+ main(){ mkfifo();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fseeko’ was not declared in this scope
+ main(){ fseeko();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fseeko’ was not declared in this scope
+ main(){ fseeko();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fseeko’ was not declared in this scope
+ main(){ fseeko();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fseeko’ was not declared in this scope
+ main(){ fseeko();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘fgetpos’ was not declared in this scope
+ main(){ fgetpos();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘fgetpos’ was not declared in this scope
+ main(){ fgetpos();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘fgetpos’ was not declared in this scope
+ main(){ fgetpos();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘fgetpos’ was not declared in this scope
+ main(){ fgetpos();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fpurge’ was not declared in this scope
+ main(){ fpurge();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘fpurge’ was not declared in this scope
+ main(){ fpurge();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘stdio’ was not declared in this scope
+ main(){ stdio();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘stdio’ was not declared in this scope
+ main(){ stdio();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘pendingcc1’ was not declared in this scope
+ main(){ pendingcc1();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘pendingcc1’ was not declared in this scope
+ main(){ pendingcc1();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘pendingcc’ was not declared in this scope
+ main(){ pendingcc();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘pendingcc’ was not declared in this scope
+ main(){ pendingcc();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘fcloseFILE’ was not declared in this scope
+ main(){ fcloseFILE();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘fcloseFILE’ was not declared in this scope
+ main(){ fcloseFILE();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘fcloseFILE2’ was not declared in this scope
+ main(){ fcloseFILE2();}
+                     ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘fcloseFILE2’ was not declared in this scope
+ main(){ fcloseFILE2();}
+                     ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘fcloseFILE’ was not declared in this scope
+ main(){ fcloseFILE();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘fcloseFILE’ was not declared in this scope
+ main(){ fcloseFILE();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘setproctitle’ was not declared in this scope
+ main(){ setproctitle();}
+                      ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘setproctitle’ was not declared in this scope
+ main(){ setproctitle();}
+                      ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘setproctitle’ was not declared in this scope
+ main(){ setproctitle();}
+                      ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘setproctitle’ was not declared in this scope
+ main(){ setproctitle();}
+                      ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘sysctl’ was not declared in this scope
+ main(){ sysctl();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘sysctl’ was not declared in this scope
+ main(){ sysctl();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘sysctl’ was not declared in this scope
+ main(){ sysctl();}
+                ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:16: error: ‘sysctl’ was not declared in this scope
+ main(){ sysctl();}
+                ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysinfo’ was not declared in this scope
+ main(){ sysinfo();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysinfo’ was not declared in this scope
+ main(){ sysinfo();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysconf’ was not declared in this scope
+ main(){ sysconf();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysconf’ was not declared in this scope
+ main(){ sysconf();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysinfo’ was not declared in this scope
+ main(){ sysinfo();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysinfo’ was not declared in this scope
+ main(){ sysinfo();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘sysctlbyname’ was not declared in this scope
+ main(){ sysctlbyname();}
+                      ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:22: error: ‘sysctlbyname’ was not declared in this scope
+ main(){ sysctlbyname();}
+                      ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysinfo’ was not declared in this scope
+ main(){ sysinfo();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysinfo’ was not declared in this scope
+ main(){ sysinfo();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysconf’ was not declared in this scope
+ main(){ sysconf();}
+                 ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:17: error: ‘sysconf’ was not declared in this scope
+ main(){ sysconf();}
+                 ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘sysconf2’ was not declared in this scope
+ main(){ sysconf2();}
+                  ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:18: error: ‘sysconf2’ was not declared in this scope
+ main(){ sysconf2();}
+                  ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘netsh_none’ was not declared in this scope
+ main(){ netsh_none();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘netsh_none’ was not declared in this scope
+ main(){ netsh_none();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘regex’ was not declared in this scope
+ main(){ regex();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘regex’ was not declared in this scope
+ main(){ regex();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘regex’ was not declared in this scope
+ main(){ regex();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘regex’ was not declared in this scope
+ main(){ regex();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘errno’ was not declared in this scope
+ main(){ errno();}
+               ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘errno’ was not declared in this scope
+ main(){ errno();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘Gates_Win32’ was not declared in this scope
+ main(){ Gates_Win32();}
+                     ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:21: error: ‘Gates_Win32’ was not declared in this scope
+ main(){ Gates_Win32();}
+                     ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘gethostid’ was not declared in this scope
+ main(){ gethostid();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘gethostid’ was not declared in this scope
+ main(){ gethostid();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘opt_s_vsap’ was not declared in this scope
+ main(){ opt_s_vsap();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘opt_s_vsap’ was not declared in this scope
+ main(){ opt_s_vsap();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘opt_s_htaccept’ was not declared in this scope
+ main(){ opt_s_htaccept();}
+                        ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:24: error: ‘opt_s_htaccept’ was not declared in this scope
+ main(){ opt_s_htaccept();}
+                        ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘opt_s_sox’ was not declared in this scope
+ main(){ opt_s_sox();}
+                   ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:19: error: ‘opt_s_sox’ was not declared in this scope
+ main(){ opt_s_sox();}
+                   ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘opt_s_stls’ was not declared in this scope
+ main(){ opt_s_stls();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘opt_s_stls’ was not declared in this scope
+ main(){ opt_s_stls();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘opt_s_caps’ was not declared in this scope
+ main(){ opt_s_caps();}
+                    ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:20: error: ‘opt_s_caps’ was not declared in this scope
+ main(){ opt_s_caps();}
+                    ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:23: error: ‘opt_s_pilsner’ was not declared in this scope
+ main(){ opt_s_pilsner();}
+                       ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:23: error: ‘opt_s_pilsner’ was not declared in this scope
+ main(){ opt_s_pilsner();}
+                       ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:23: error: ‘opt_s_spinach’ was not declared in this scope
+ main(){ opt_s_spinach();}
+                       ^
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:23: error: ‘opt_s_spinach’ was not declared in this scope
+ main(){ opt_s_spinach();}
+                       ^
+cc: error: _.o: No existe el archivo o el directorio
+
+p2ll.c: In function ‘const void* i2pX(const char*, int, int)’:
+p2ll.c:18:23: warning: cast to pointer from integer of different size [-Wint-to-pointer-cast]
+  return (const void *)i;
+                       ^
+__malloc_size.c: In function ‘int mallocSize(void*)’:
+__malloc_size.c:14:22: error: ‘malloc_size’ was not declared in this scope
+  return malloc_size(p);
+                      ^
+make[5]: [__malloc_size.o] Error 1 (no tiene efecto)
+setsid.c: In function ‘int setsid()’:
+setsid.c:17:41: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+         if( 0 <= (fd = open("/dev/tty",0)) ){
+                                         ^
+_-poll1.c: In function ‘int _PollIns(int, int, int*, int*)’:
+_-poll1.c:31:27: error: ‘POLLIN_MASK’ was not declared in this scope
+    if( pfd[rfd].revents & POLLIN_MASK ){
+                           ^
+_-poll1.c: In function ‘int _PollIn1(int, int)’:
+_-poll1.c:55:29: error: ‘POLLIN_MASK’ was not declared in this scope
+  nready = (pfd[0].revents & POLLIN_MASK) ? 1 : 0;
+                             ^
+make[5]: [_-poll1.o] Error 1 (no tiene efecto)
+sendFd1.c: In function ‘int sendFd(int, int, int)’:
+sendFd1.c:12:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char *str = "x";
+              ^
+sendFd2.c: In function ‘int sendFd(int, int, int)’:
+sendFd2.c:10:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char *str = "x";
+              ^
+sendFd2.c:20:6: error: ‘struct msghdr’ has no member named ‘msg_accrights’
+  msg.msg_accrights = (caddr_t)&fd;
+      ^
+sendFd2.c:21:6: error: ‘struct msghdr’ has no member named ‘msg_accrightslen’
+  msg.msg_accrightslen = sizeof(fd);
+      ^
+sendFd2.c: In function ‘int recvFd(int)’:
+sendFd2.c:40:6: error: ‘struct msghdr’ has no member named ‘msg_accrights’
+  msg.msg_accrights = (caddr_t)&fd;
+      ^
+sendFd2.c:41:6: error: ‘struct msghdr’ has no member named ‘msg_accrightslen’
+  msg.msg_accrightslen = sizeof(int);
+      ^
+make[5]: [sendFd2.o] Error 1 (no tiene efecto)
+yp_match.c: In function ‘int yp_match(const char*, const char*, const char*, int, char**, int*)’:
+yp_match.c:9:7: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  *val = "";
+       ^
+yp_match.c: In function ‘int yp_get_default_domain(char**)’:
+yp_match.c:16:10: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  *domain = "";
+          ^
+socklen_s.c: In function ‘int Xgetsockopt(int, int, int, void*, int*)’:
+socklen_s.c:19:47: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = getsockopt(s,e,n,(char*)v,&rl);
+                                               ^
+In file included from socklen_s.c:6:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:219:12: error:   initializing argument 5 of ‘int getsockopt(int, int, int, void*, socklen_t*)’ [-fpermissive]
+ extern int getsockopt (int __fd, int __level, int __optname,
+            ^
+socklen_s.c: In function ‘int Xgetsockname(int, sockaddr*, int*)’:
+socklen_s.c:24:37: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = getsockname(s,a,&rl);
+                                     ^
+In file included from socklen_s.c:6:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:127:12: error:   initializing argument 3 of ‘int getsockname(int, sockaddr*, socklen_t*)’ [-fpermissive]
+ extern int getsockname (int __fd, __SOCKADDR_ARG __addr,
+            ^
+socklen_s.c: In function ‘int Xgetpeername(int, sockaddr*, int*)’:
+socklen_s.c:29:37: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = getpeername(s,a,&rl);
+                                     ^
+In file included from socklen_s.c:6:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:141:12: error:   initializing argument 3 of ‘int getpeername(int, sockaddr*, socklen_t*)’ [-fpermissive]
+ extern int getpeername (int __fd, __SOCKADDR_ARG __addr,
+            ^
+socklen_s.c: In function ‘int Xaccept(int, sockaddr*, int*)’:
+socklen_s.c:34:32: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = accept(s,a,&rl);
+                                ^
+In file included from socklen_s.c:6:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: error:   initializing argument 3 of ‘int accept(int, sockaddr*, socklen_t*)’ [-fpermissive]
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+socklen_s.c: In function ‘int Xrecvfrom(int, void*, size_t, int, sockaddr*, int*)’:
+socklen_s.c:39:47: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = recvfrom(s,(char*)b,z,f,a,&rl);
+                                               ^
+In file included from /usr/include/x86_64-linux-gnu/sys/socket.h:280:0,
+                 from socklen_s.c:6:
+/usr/include/x86_64-linux-gnu/bits/socket2.h:64:1: error:   initializing argument 6 of ‘ssize_t recvfrom(int, void*, size_t, int, sockaddr*, socklen_t*)’ [-fpermissive]
+ recvfrom (int __fd, void *__restrict __buf, size_t __n, int __flags,
+ ^
+make[5]: [socklen_s.o] Error 1 (no tiene efecto)
+_-strcasestr.c: In function ‘char* Strcasestr(const char*, const char*)’:
+_-strcasestr.c:9:25: error: invalid conversion from ‘const char*’ to ‘char*’ [-fpermissive]
+  return strcasestr(s1,s2);
+                         ^
+make[5]: [_-strcasestr.o] Error 1 (no tiene efecto)
+__futimes.c:4:11: error: expected constructor, destructor, or type conversion before ‘is’
+ futimes() is unavailable and might be a stab on Linux.
+           ^
+make[5]: [__futimes.o] Error 1 (no tiene efecto)
+utimes.c: In function ‘int utimes(char*, timeval*)’:
+utimes.c:14:27: warning: ISO C++ says that these are ambiguous, even though the worst conversion for the first is better than the worst conversion for the second: [enabled by default]
+   return utime(file,&times);
+                           ^
+In file included from utimes.c:5:0:
+/usr/include/utime.h:45:12: note: candidate 1: int utime(const char*, const utimbuf*)
+ extern int utime (const char *__file,
+            ^
+utimes.c:6:5: note: candidate 2: int utime(char*, void*)
+ int utime(char*,void*);
+     ^
+lstat.c:20:1: error: ‘__int64’ does not name a type
+ __int64 lstati64(const char *path,struct _stati64 *st){
+ ^
+make[5]: [lstat.o] Error 1 (no tiene efecto)
+__statvfs.c: In function ‘int Fstype(const char*, char*)’:
+__statvfs.c:9:19: error: ‘struct statvfs’ has no member named ‘f_basetype’
+   memcpy(type,buf.f_basetype,strlen(buf.f_basetype)+1);
+                   ^
+__statvfs.c:9:41: error: ‘struct statvfs’ has no member named ‘f_basetype’
+   memcpy(type,buf.f_basetype,strlen(buf.f_basetype)+1);
+                                         ^
+make[5]: [__statvfs.o] Error 1 (no tiene efecto)
+_-getrusage.c:9:0: warning: "RUSAGE_SELF" redefined [enabled by default]
+ #define RUSAGE_SELF 0
+ ^
+In file included from /usr/include/x86_64-linux-gnu/sys/resource.h:24:0,
+                 from _-getrusage.c:6:
+/usr/include/x86_64-linux-gnu/bits/resource.h:162:0: note: this is the location of the previous definition
+ #define RUSAGE_SELF RUSAGE_SELF
+ ^
+_-getrusage.c:10:0: warning: "RUSAGE_CHILDREN" redefined [enabled by default]
+ #define RUSAGE_CHILDREN -1
+ ^
+In file included from /usr/include/x86_64-linux-gnu/sys/resource.h:24:0,
+                 from _-getrusage.c:6:
+/usr/include/x86_64-linux-gnu/bits/resource.h:166:0: note: this is the location of the previous definition
+ #define RUSAGE_CHILDREN RUSAGE_CHILDREN
+ ^
+_-getrusage.c:12:20: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+ char *rusage_ALL = "%uu %ss %SS %RR %rr %tt %dd %kk %ee %ff %ww %ii %oo %gg %xx %yy";
+                    ^
+___spawnvp.c:1:21: fatal error: process.h: No existe el archivo o el directorio
+ #include <process.h>
+                     ^
+compilation terminated.
+make[5]: [___spawnvp.o] Error 1 (no tiene efecto)
+__spawnvp.c:1:21: fatal error: process.h: No existe el archivo o el directorio
+ #include <process.h>
+                     ^
+compilation terminated.
+make[5]: [__spawnvp.o] Error 1 (no tiene efecto)
+__system.c:5:27: error: ‘int std::system(const char*)’ should have been declared inside ‘std’
+ int std::system(PCStr(com)){
+                           ^
+__system.c: In function ‘int std::system(const char*)’:
+__system.c:5:27: error: ‘int std::system(const char*)’ conflicts with a previous declaration
+In file included from ../include/ystring.h:5:0,
+                 from __system.c:1:
+/usr/include/stdlib.h:717:12: note: previous declaration ‘int system(const char*)’
+ extern int system (const char *__command) __wur;
+            ^
+make[5]: [__system.o] Error 1 (no tiene efecto)
+__scandir.c: In function ‘int Scandir(const char*, int (*)(const char*, ...), ...)’:
+__scandir.c:21:23: error: ‘struct dirent’ has no member named ‘d_namlen’
+    dir1->d_name[dir1->d_namlen] = 0;
+                       ^
+make[5]: [__scandir.o] Error 1 (no tiene efecto)
+__forkpty.c:12:21: fatal error: libutil.h: No existe el archivo o el directorio
+ #include <libutil.h>
+                     ^
+compilation terminated.
+make[5]: [__forkpty.o] Error 1 (no tiene efecto)
+_-sgTTy.c: In function ‘void sig_winch(int)’:
+_-sgTTy.c:665:10: warning: ‘int sigsetmask(int)’ is deprecated (declared at /usr/include/signal.h:192) [-Wdeprecated-declarations]
+  omask = sigsetmask(~(sigmask(SIGINT)|sigmask(SIGQUIT)));
+          ^
+_-sgTTy.c:665:56: warning: ‘int sigsetmask(int)’ is deprecated (declared at /usr/include/signal.h:192) [-Wdeprecated-declarations]
+  omask = sigsetmask(~(sigmask(SIGINT)|sigmask(SIGQUIT)));
+                                                        ^
+_-sgTTy.c:675:2: warning: ‘int sigsetmask(int)’ is deprecated (declared at /usr/include/signal.h:192) [-Wdeprecated-declarations]
+  sigsetmask(omask);
+  ^
+_-sgTTy.c:675:18: warning: ‘int sigsetmask(int)’ is deprecated (declared at /usr/include/signal.h:192) [-Wdeprecated-declarations]
+  sigsetmask(omask);
+                  ^
+fgetpos.c: In function ‘int Fgetpos(FILE*, Fpos_t*)’:
+fgetpos.c:5:9: error: no match for ‘operator=’ (operand types are ‘Fpos_t’ and ‘long int’)
+  pos[0] = ftell(fp);
+         ^
+fgetpos.c:5:9: note: candidate is:
+In file included from fgetpos.c:2:0:
+../include/file.h:51:30: note: Fpos_t& Fpos_t::operator=(const Fpos_t&)
+ typedef struct { int b[4]; } Fpos_t;
+                              ^
+../include/file.h:51:30: note:   no known conversion for argument 1 from ‘long int’ to ‘const Fpos_t&’
+fgetpos.c:6:14: error: cannot convert ‘Fpos_t’ to ‘int’ in return
+  return pos[0];
+              ^
+make[5]: [fgetpos.o] Error 1 (no tiene efecto)
+pendingcc1.c: In function ‘int pendingcc(FILE*)’:
+pendingcc1.c:5:13: error: ‘FILE’ has no member named ‘_bf’
+  return fp->_bf._size - fp->_w;
+             ^
+pendingcc1.c:5:29: error: ‘FILE’ has no member named ‘_w’
+  return fp->_bf._size - fp->_w;
+                             ^
+make[5]: [pendingcc1.o] Error 1 (no tiene efecto)
+_-fcloseFILE.c: In function ‘int FL_fcloseFILE(const char*, int, FILE*)’:
+_-fcloseFILE.c:11:30: error: ‘FILE’ has no member named ‘_file’
+ #define setInvalidFd(fp) fp->_file = -1
+                              ^
+_-fcloseFILE.c:18:2: note: in expansion of macro ‘setInvalidFd’
+  setInvalidFd(fp);
+  ^
+make[5]: [_-fcloseFILE.o] Error 1 (no tiene efecto)
+__setproctitle.c: In function ‘int Setproctitle(const char*, ...)’:
+__setproctitle.c:6:22: error: ‘setproctitle’ was not declared in this scope
+  setproctitle(fmt,VA8);
+                      ^
+make[5]: [__setproctitle.o] Error 1 (no tiene efecto)
+__sysctl.c: In function ‘FileSize getSysctl(const char*)’:
+__sysctl.c:13:42: error: ‘sysctlbyname’ was not declared in this scope
+  if( sysctlbyname(name,&old4,&olen,NULL,0) == 0 ){
+                                          ^
+__sysctl.c:19:43: error: ‘sysctlbyname’ was not declared in this scope
+   if( sysctlbyname(name,&old8,&olen,NULL,0) == 0 ){
+                                           ^
+make[5]: [__sysctl.o] Error 1 (no tiene efecto)
+#### mksubst errors to /root/tor/delegate9.9.13/maker/errors: 1461585945
+#### mksubst errors to /root/tor/delegate9.9.13/maker/errors: 1461585945
+***
+cc _.o -L../lib
+
+***
+cc -c -o _.o -c -O2 -x c++ -DQS  -Dm64  _.c
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘dummy’ was not declared in this scope
+ main(){ dummy();}
+               ^
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:15: error: ‘dummy’ was not declared in this scope
+ main(){ dummy();}
+               ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:26: error: ‘SSL_library_init’ was not declared in this scope
+ main(){ SSL_library_init();}
+                          ^
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:26: error: ‘SSL_library_init’ was not declared in this scope
+ main(){ SSL_library_init();}
+                          ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:28: error: ‘ERR_error_string_n’ was not declared in this scope
+ main(){ ERR_error_string_n();}
+                            ^
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:28: error: ‘ERR_error_string_n’ was not declared in this scope
+ main(){ ERR_error_string_n();}
+                            ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:26: error: ‘RSA_generate_key’ was not declared in this scope
+ main(){ RSA_generate_key();}
+                          ^
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:26: error: ‘RSA_generate_key’ was not declared in this scope
+ main(){ RSA_generate_key();}
+                          ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:25: error: ‘SSL_set_SSL_CTX’ was not declared in this scope
+ main(){ SSL_set_SSL_CTX();}
+                         ^
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:25: error: ‘SSL_set_SSL_CTX’ was not declared in this scope
+ main(){ SSL_set_SSL_CTX();}
+                         ^
+cc: error: _.o: No existe el archivo o el directorio
+
+***
+cc -c -o _.o -O2 -x c++ -DQS  -Dm64  _.c
+_.c: In function ‘int main()’:
+_.c:1:38: error: ‘SSL_CTX_set_tmp_rsa_callback’ was not declared in this scope
+ main(){ SSL_CTX_set_tmp_rsa_callback();}
+                                      ^
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib -lstdc++
+_.c: In function ‘int main()’:
+_.c:1:38: error: ‘SSL_CTX_set_tmp_rsa_callback’ was not declared in this scope
+ main(){ SSL_CTX_set_tmp_rsa_callback();}
+                                      ^
+cc: error: _.o: No existe el archivo o el directorio
+
+#### mksubst errors to /root/tor/delegate9.9.13/maker/errors: 1461586032
+#### mksubst errors to /root/tor/delegate9.9.13/maker/errors: 1461586032
+***
+cc _.o -L../lib
+
+***
+cc -c -o _.o -c -O2 -x c++ -DQS  -Dm64  _.c
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib
+
+***
+cc _.o -L../lib ../lib/libresolvy.a  ../lib/libteleport.a ../lib/libmd5.a ../lib/libcfi.a ../lib/library.a ../lib/libgates.a ../lib/libmimekit.a ../lib/libfsx.a -lnsl -ldl -lutil -lpthread -lstdc++ ../lib/library.a ../lib/libgates.a -lc -L../lib
+
+__malloc_size.c: In function ‘int mallocSize(void*)’:
+__malloc_size.c:14:22: error: ‘malloc_size’ was not declared in this scope
+  return malloc_size(p);
+                      ^
+make[5]: [__malloc_size.o] Error 1 (no tiene efecto)
+_-poll1.c: In function ‘int _PollIns(int, int, int*, int*)’:
+_-poll1.c:31:27: error: ‘POLLIN_MASK’ was not declared in this scope
+    if( pfd[rfd].revents & POLLIN_MASK ){
+                           ^
+_-poll1.c: In function ‘int _PollIn1(int, int)’:
+_-poll1.c:55:29: error: ‘POLLIN_MASK’ was not declared in this scope
+  nready = (pfd[0].revents & POLLIN_MASK) ? 1 : 0;
+                             ^
+make[5]: [_-poll1.o] Error 1 (no tiene efecto)
+sendFd2.c: In function ‘int sendFd(int, int, int)’:
+sendFd2.c:10:14: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char *str = "x";
+              ^
+sendFd2.c:20:6: error: ‘struct msghdr’ has no member named ‘msg_accrights’
+  msg.msg_accrights = (caddr_t)&fd;
+      ^
+sendFd2.c:21:6: error: ‘struct msghdr’ has no member named ‘msg_accrightslen’
+  msg.msg_accrightslen = sizeof(fd);
+      ^
+sendFd2.c: In function ‘int recvFd(int)’:
+sendFd2.c:40:6: error: ‘struct msghdr’ has no member named ‘msg_accrights’
+  msg.msg_accrights = (caddr_t)&fd;
+      ^
+sendFd2.c:41:6: error: ‘struct msghdr’ has no member named ‘msg_accrightslen’
+  msg.msg_accrightslen = sizeof(int);
+      ^
+make[5]: [sendFd2.o] Error 1 (no tiene efecto)
+socklen_s.c: In function ‘int Xgetsockopt(int, int, int, void*, int*)’:
+socklen_s.c:19:47: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = getsockopt(s,e,n,(char*)v,&rl);
+                                               ^
+In file included from socklen_s.c:6:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:219:12: error:   initializing argument 5 of ‘int getsockopt(int, int, int, void*, socklen_t*)’ [-fpermissive]
+ extern int getsockopt (int __fd, int __level, int __optname,
+            ^
+socklen_s.c: In function ‘int Xgetsockname(int, sockaddr*, int*)’:
+socklen_s.c:24:37: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = getsockname(s,a,&rl);
+                                     ^
+In file included from socklen_s.c:6:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:127:12: error:   initializing argument 3 of ‘int getsockname(int, sockaddr*, socklen_t*)’ [-fpermissive]
+ extern int getsockname (int __fd, __SOCKADDR_ARG __addr,
+            ^
+socklen_s.c: In function ‘int Xgetpeername(int, sockaddr*, int*)’:
+socklen_s.c:29:37: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = getpeername(s,a,&rl);
+                                     ^
+In file included from socklen_s.c:6:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:141:12: error:   initializing argument 3 of ‘int getpeername(int, sockaddr*, socklen_t*)’ [-fpermissive]
+ extern int getpeername (int __fd, __SOCKADDR_ARG __addr,
+            ^
+socklen_s.c: In function ‘int Xaccept(int, sockaddr*, int*)’:
+socklen_s.c:34:32: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = accept(s,a,&rl);
+                                ^
+In file included from socklen_s.c:6:0:
+/usr/include/x86_64-linux-gnu/sys/socket.h:243:12: error:   initializing argument 3 of ‘int accept(int, sockaddr*, socklen_t*)’ [-fpermissive]
+ extern int accept (int __fd, __SOCKADDR_ARG __addr,
+            ^
+socklen_s.c: In function ‘int Xrecvfrom(int, void*, size_t, int, sockaddr*, int*)’:
+socklen_s.c:39:47: error: invalid conversion from ‘int*’ to ‘socklen_t* {aka unsigned int*}’ [-fpermissive]
+  rl = *l; code = recvfrom(s,(char*)b,z,f,a,&rl);
+                                               ^
+In file included from /usr/include/x86_64-linux-gnu/sys/socket.h:280:0,
+                 from socklen_s.c:6:
+/usr/include/x86_64-linux-gnu/bits/socket2.h:64:1: error:   initializing argument 6 of ‘ssize_t recvfrom(int, void*, size_t, int, sockaddr*, socklen_t*)’ [-fpermissive]
+ recvfrom (int __fd, void *__restrict __buf, size_t __n, int __flags,
+ ^
+make[5]: [socklen_s.o] Error 1 (no tiene efecto)
+_-strcasestr.c: In function ‘char* Strcasestr(const char*, const char*)’:
+_-strcasestr.c:9:25: error: invalid conversion from ‘const char*’ to ‘char*’ [-fpermissive]
+  return strcasestr(s1,s2);
+                         ^
+make[5]: [_-strcasestr.o] Error 1 (no tiene efecto)
+__futimes.c:4:11: error: expected constructor, destructor, or type conversion before ‘is’
+ futimes() is unavailable and might be a stab on Linux.
+           ^
+make[5]: [__futimes.o] Error 1 (no tiene efecto)
+lstat.c:20:1: error: ‘__int64’ does not name a type
+ __int64 lstati64(const char *path,struct _stati64 *st){
+ ^
+make[5]: [lstat.o] Error 1 (no tiene efecto)
+__statvfs.c: In function ‘int Fstype(const char*, char*)’:
+__statvfs.c:9:19: error: ‘struct statvfs’ has no member named ‘f_basetype’
+   memcpy(type,buf.f_basetype,strlen(buf.f_basetype)+1);
+                   ^
+__statvfs.c:9:41: error: ‘struct statvfs’ has no member named ‘f_basetype’
+   memcpy(type,buf.f_basetype,strlen(buf.f_basetype)+1);
+                                         ^
+make[5]: [__statvfs.o] Error 1 (no tiene efecto)
+___spawnvp.c:1:21: fatal error: process.h: No existe el archivo o el directorio
+ #include <process.h>
+                     ^
+compilation terminated.
+make[5]: [___spawnvp.o] Error 1 (no tiene efecto)
+__spawnvp.c:1:21: fatal error: process.h: No existe el archivo o el directorio
+ #include <process.h>
+                     ^
+compilation terminated.
+make[5]: [__spawnvp.o] Error 1 (no tiene efecto)
+__system.c:5:27: error: ‘int std::system(const char*)’ should have been declared inside ‘std’
+ int std::system(PCStr(com)){
+                           ^
+__system.c: In function ‘int std::system(const char*)’:
+__system.c:5:27: error: ‘int std::system(const char*)’ conflicts with a previous declaration
+In file included from ../include/ystring.h:5:0,
+                 from __system.c:1:
+/usr/include/stdlib.h:717:12: note: previous declaration ‘int system(const char*)’
+ extern int system (const char *__command) __wur;
+            ^
+make[5]: [__system.o] Error 1 (no tiene efecto)
+__scandir.c: In function ‘int Scandir(const char*, int (*)(const char*, ...), ...)’:
+__scandir.c:21:23: error: ‘struct dirent’ has no member named ‘d_namlen’
+    dir1->d_name[dir1->d_namlen] = 0;
+                       ^
+make[5]: [__scandir.o] Error 1 (no tiene efecto)
+__forkpty.c:12:21: fatal error: libutil.h: No existe el archivo o el directorio
+ #include <libutil.h>
+                     ^
+compilation terminated.
+make[5]: [__forkpty.o] Error 1 (no tiene efecto)
+fgetpos.c: In function ‘int Fgetpos(FILE*, Fpos_t*)’:
+fgetpos.c:5:9: error: no match for ‘operator=’ (operand types are ‘Fpos_t’ and ‘long int’)
+  pos[0] = ftell(fp);
+         ^
+fgetpos.c:5:9: note: candidate is:
+In file included from fgetpos.c:2:0:
+../include/file.h:51:30: note: Fpos_t& Fpos_t::operator=(const Fpos_t&)
+ typedef struct { int b[4]; } Fpos_t;
+                              ^
+../include/file.h:51:30: note:   no known conversion for argument 1 from ‘long int’ to ‘const Fpos_t&’
+fgetpos.c:6:14: error: cannot convert ‘Fpos_t’ to ‘int’ in return
+  return pos[0];
+              ^
+make[5]: [fgetpos.o] Error 1 (no tiene efecto)
+pendingcc1.c: In function ‘int pendingcc(FILE*)’:
+pendingcc1.c:5:13: error: ‘FILE’ has no member named ‘_bf’
+  return fp->_bf._size - fp->_w;
+             ^
+pendingcc1.c:5:29: error: ‘FILE’ has no member named ‘_w’
+  return fp->_bf._size - fp->_w;
+                             ^
+make[5]: [pendingcc1.o] Error 1 (no tiene efecto)
+_-fcloseFILE.c: In function ‘int FL_fcloseFILE(const char*, int, FILE*)’:
+_-fcloseFILE.c:11:30: error: ‘FILE’ has no member named ‘_file’
+ #define setInvalidFd(fp) fp->_file = -1
+                              ^
+_-fcloseFILE.c:18:2: note: in expansion of macro ‘setInvalidFd’
+  setInvalidFd(fp);
+  ^
+make[5]: [_-fcloseFILE.o] Error 1 (no tiene efecto)
+__setproctitle.c: In function ‘int Setproctitle(const char*, ...)’:
+__setproctitle.c:6:22: error: ‘setproctitle’ was not declared in this scope
+  setproctitle(fmt,VA8);
+                      ^
+make[5]: [__setproctitle.o] Error 1 (no tiene efecto)
+__sysctl.c: In function ‘FileSize getSysctl(const char*)’:
+__sysctl.c:13:42: error: ‘sysctlbyname’ was not declared in this scope
+  if( sysctlbyname(name,&old4,&olen,NULL,0) == 0 ){
+                                          ^
+__sysctl.c:19:43: error: ‘sysctlbyname’ was not declared in this scope
+   if( sysctlbyname(name,&old8,&olen,NULL,0) == 0 ){
+                                           ^
+make[5]: [__sysctl.o] Error 1 (no tiene efecto)
+#### mksubst errors to /root/tor/delegate9.9.13/maker/errors: 1461586035
+#### mksubst errors to /root/tor/delegate9.9.13/maker/errors: 1461586035
+***
+cc _.o -L../lib
+
+***
+cc -c -o _.o -c -O2 -x c++ -DQS  -Dm64  _.c
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib
+
+***
+cc _.o -L../lib -lnsl -ldl -lutil -lpthread -lstdc++ -lcrypto -lssl -L../lib
+
+#### mksubst errors to /root/tor/delegate9.9.13/maker/errors: 1461586037
+#### mksubst errors to /root/tor/delegate9.9.13/maker/errors: 1461586037

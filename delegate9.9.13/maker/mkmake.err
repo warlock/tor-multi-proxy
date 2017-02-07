@@ -1,0 +1,8 @@
+	*** exit(-1): -unlink at /root/tor/delegate9.9.13/maker
+	[0] /root/tor/delegate9.9.13/mkmake.exe
+	[1] libsubst.a.list
+
+	*** exit(-1): -unlink at /root/tor/delegate9.9.13/maker
+	[0] /root/tor/delegate9.9.13/mkmake.exe
+	[1] libsubstx.a.list
+

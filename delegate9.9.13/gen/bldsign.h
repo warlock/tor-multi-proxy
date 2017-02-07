@@ -1,0 +1,2 @@
+#define BUILT_SRCSIGN "\n\
+{BLDSIGN\0759.9.13:20160425140714+0100:6fdc87e522763a5e:jsubils@anpro21.com:-}\n"+10

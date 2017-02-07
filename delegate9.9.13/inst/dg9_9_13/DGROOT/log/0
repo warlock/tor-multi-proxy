@@ -1,0 +1,18 @@
+04/25 14:11:05.30 [21177] 0+0: -- setCredhyCache /tmp/credhy_cache128s >> /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/act/credhy_cache128s
+04/25 14:11:05.30 [21177] 0+0: --- [z] 0 dglibz.so
+04/25 14:11:05.30 [21177] 0+0: --- [z] 0 libz.so.0.9.8
+04/25 14:11:05.30 [21177] 0+0: --- [z] 260DD80 libz.so
+04/25 14:11:05.30 [21177] 0+0: --- [z] optional: gziocallback
+04/25 14:11:05.30 [21177] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+04/25 14:11:05.30 [21177] 0+0: +++ loaded Zlib 1.2.8
+(UNIX) 13:11:05.296 [21177] ERROR: PAM module is not built in.
+04/25 14:11:05.30 [21177] 0+0: --- [pam] 0 dglibpam.so
+04/25 14:11:05.30 [21177] 0+0: --- [pam] 0 libpam.so.0.9.8
+04/25 14:11:05.30 [21177] 0+0: --- [pam] 0 libpam.so
+04/25 14:11:05.30 [21177] 0+0: --- [pam] 0 libpam.so.1.0.0
+04/25 14:11:05.30 [21177] 0+0: --- [pam] 0 libpam.so.10
+04/25 14:11:05.30 [21177] 0+0: --- [pam] 0 libpam.so.6
+04/25 14:11:05.30 [21177] 0+0: --- [pam] 0 libpam.so.4
+04/25 14:11:05.30 [21177] 0+0: --- [pam] 0 libpam.so.1
+04/25 14:11:05.30 [21177] 0+0: --- [pam] 260E4B0 libpam.so.0
+04/25 14:11:05.30 [21177] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0

@@ -1,0 +1,176 @@
+-- InitLog for [_3133_]
+07/22 15:54:00.97 [24344] 0+0: --INITIALIZATION START-16072215+0100: 9.9.13 on Linux/3.2.0-58-generic--
+07/22 15:54:00.97 [24344] 0+0: _execPath=/root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/dg9_9_13
+07/22 15:54:00.97 [24344] 0+0: EXECDIR=/root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin
+07/22 15:54:00.97 [24344] 0+0: BINSHELL=/bin/sh
+07/22 15:54:00.97 [24344] 0+0: MAXIMA=delegated:64 for small mem=8811M
+07/24 14:54:00.97 [24345] 0+0: -- Fork(daemon): 24344 -> 24345
+07/22 15:54:00.97 [24345] 0+0: server_open(delegate,:3133,listen=20)
+07/22 15:54:00.97 [24345] 0+0: server_open(delegate,:3133) BOUND
+07/22 15:54:00.97 [24345] 0+0: DGROOT=/root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT^M
+07/22 15:54:00.97 [24345] 0+0: <DeleGate/9.9.13> [24345] -P3133 READY^M
+07/22 15:54:00.97 [24345] 0+0: HostID: No-HostId-Available
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/dglibz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/dglibz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/dglibz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/dglibz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/dglibz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/dglibz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/dglibz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/dglibz.so 0
+07/22 15:54:00.97 [24345] 0+0: --- [z] 0 dglibz.so
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libz.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libz.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libz.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libz.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libz.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libz.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libz.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libz.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: --- [z] 0 libz.so.0.9.8
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libz.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libz.so 0
+07/22 15:54:00.97 [24345] 0+0: --- [z] 1D6E4F0 libz.so
+07/22 15:54:00.97 [24345] 0+0: --- [z] optional: gziocallback
+07/22 15:54:00.97 [24345] 0+0: ---- [z] loaded 20 syms, unknown=0+1, already=0
+07/22 15:54:00.97 [24345] 0+0: +++ loaded Zlib 1.2.8
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/dglibpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/dglibpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/dglibpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/dglibpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/dglibpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/dglibpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/dglibpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/dglibpam.so 0
+07/22 15:54:00.97 [24345] 0+0: --- [pam] 0 dglibpam.so
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libpam.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libpam.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libpam.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libpam.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libpam.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libpam.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libpam.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libpam.so.0.9.8 0
+07/22 15:54:00.97 [24345] 0+0: --- [pam] 0 libpam.so.0.9.8
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libpam.so 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libpam.so 0
+07/22 15:54:00.97 [24345] 0+0: --- [pam] 0 libpam.so
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libpam.so.1.0.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libpam.so.1.0.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libpam.so.1.0.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libpam.so.1.0.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libpam.so.1.0.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libpam.so.1.0.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libpam.so.1.0.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libpam.so.1.0.0 0
+07/22 15:54:00.97 [24345] 0+0: --- [pam] 0 libpam.so.1.0.0
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libpam.so.10 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libpam.so.10 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libpam.so.10 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libpam.so.10 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libpam.so.10 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libpam.so.10 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libpam.so.10 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libpam.so.10 0
+07/22 15:54:00.97 [24345] 0+0: --- [pam] 0 libpam.so.10
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libpam.so.6 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libpam.so.6 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libpam.so.6 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libpam.so.6 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libpam.so.6 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libpam.so.6 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libpam.so.6 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libpam.so.6 0
+07/22 15:54:00.97 [24345] 0+0: --- [pam] 0 libpam.so.6
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libpam.so.4 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libpam.so.4 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libpam.so.4 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libpam.so.4 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libpam.so.4 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libpam.so.4 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libpam.so.4 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libpam.so.4 0
+07/22 15:54:00.97 [24345] 0+0: --- [pam] 0 libpam.so.4
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libpam.so.1 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libpam.so.1 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libpam.so.1 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libpam.so.1 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libpam.so.1 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libpam.so.1 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libpam.so.1 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libpam.so.1 0
+07/22 15:54:00.97 [24345] 0+0: --- [pam] 0 libpam.so.1
+07/22 15:54:00.97 [24345] 0+0: ### [0] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc/libpam.so.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [1] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib/libpam.so.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [2] /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/libpam.so.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [3] /root/tor/libpam.so.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [4] /root/lib/libpam.so.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [5] /usr/local/lib/libpam.so.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [6] /usr/lib/libpam.so.0 0
+07/22 15:54:00.97 [24345] 0+0: ### [7] /lib/libpam.so.0 0
+07/22 15:54:00.97 [24345] 0+0: --- [pam] 1D6EB80 libpam.so.0
+07/22 15:54:00.97 [24345] 0+0: ---- [pam] loaded 4 syms, unknown=0+0, already=0
+07/22 15:54:00.99 [24345] 0+0: PORT= 3133/10 (12,61)
+07/22 15:54:00.99 [24345] 0+0: OWNER=nobody => OWNER=nobody/nogroup(nobody/nogroup)
+07/22 15:54:00.99 [24345] 0+0: mkdirShared FALED errno=13: /root/tor
+07/22 15:54:00.99 [24345] 0+0: mkdirShared FALED errno=13: /root/tor
+07/22 15:54:00.99 [24345] 0+0: mkdirShared FALED errno=13: /root/tor
+07/22 15:54:00.99 [24345] 0+0: mkdirShared FALED errno=13: /root/tor
+07/22 15:54:00.99 [24345] 0+0: REMITTABLE = http,https/{80,443},gopher,ftp,wais
+07/22 15:54:00.99 [24345] 0+0: #### gzip/gunzip = dynamically linked
+07/22 15:54:00.99 [24345] 0+0: ADMIN=jsubils@anpro21.com protocol=http(specialist)
+07/22 15:54:00.99 [24345] 0+0: mkdirShared FALED errno=13: /root/tor
+07/22 15:54:00.99 [24345] 0+0: mkdirShared FALED errno=13: /root/delegate
+07/22 15:54:00.99 [24345] 0+0: WORKDIR=/var/spool/delegate-nobody/work/3133
+07/22 15:54:00.99 [24345] 0+0: MOUNT[0]X[2] /-/builtin/icons/* = default
+07/22 15:54:00.99 [24345] 0+0: MOUNT[1]X[3] /-/* = forbidden,from=!.RELIABLE,default
+07/22 15:54:00.99 [24345] 0+0: MOUNT[2]X[0] /-* = default
+07/22 15:54:00.99 [24345] 0+0: MOUNT[3]X[1] /=* = default
+07/22 15:54:00.99 [24345] 0+0: MOUNT[4]=[4] /favicon.ico builtin:icons/ysato/default.ico default,direction=fo,onerror=404,expires=15m
+07/22 15:54:00.99 [24345] 0+0: #### stack size limit = 800000 (8388608)
+07/22 15:54:00.99 [24345] 0+0: Stay open PIDFILE for accept() lock[fd=11]
+07/22 15:54:00.99 [24345] 0+0: StickyReport[12,13]127.0.0.127:65535><127.0.0.127:65535 229376/229376 229376/229376
+07/22 15:54:00.99 [24345] 0+0: env[33] LIBPATH=.;/root/tor;/root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/lib;/root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin;/root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/etc
+07/22 15:54:00.99 [24345] 0+0: env[37] RESOLV=cache,file,dns
+07/22 15:54:00.99 [24345] 0+0: ext[0] DGROOT=${EXECDIR}/..
+07/22 15:54:00.99 [24345] 0+0: arg[2] SERVER=http
+07/22 15:54:00.99 [24345] 0+0: arg[3] SOCKS=localhost:9054
+07/22 15:54:00.99 [24345] 0+0: arg[4] CACHE=no
+07/22 15:54:00.99 [24345] 0+0: arg[5] LOGFILE=
+07/22 15:54:00.99 [24345] 0+0: arg[8] HOSTLIST=*
+07/22 15:54:00.99 [24345] 0+0: gen[0] DGROOT=/root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT
+07/22 15:54:00.99 [24345] 0+0: gen[1] DGROOT=/var/spool/delegate-nobody
+07/22 15:54:00.99 [24345] 0+0: mkdirShared FALED errno=13: /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/tmp
+07/22 15:54:00.99 [24345] 0+0: TMPFILE(setLastModified): cannot create (13) = /root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/tmp/dg24345.000003.1469195640
+07/22 15:54:00.99 [24345] 0+0: >>>TMPFILE(setLastModified)>>>1d74600[14]
+07/22 15:54:00.99 [24345] 0+0: DELEGATE_Modified[1]: 57922578 1469195640
+07/22 15:54:00.99 [24345] 0+0: --INITIALIZATION DONE-16072215+0100: 9.9.13 on Linux/3.2.0-58-generic--
+07/22 15:54:00.99 [24345] 0+0: _execPath=/root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/dg9_9_13
+07/22 15:54:01.01 [24344] 0+0: --beDaemon: ready=1, stat=0
+07/22 15:54:01.01 [24344] 0+0: --beDaemon: going background ...
+07/22 15:54:01.01 [24344] 0+0: --beDaemon: going background
+07/22 15:54:01.01 [24345] 0+0: PollIn.POLLHUP (9) errno=0
+07/22 15:54:01.01 [24345] 0+0: PollIn.POLLHUP (9) errno=0
+07/22 15:54:01.01 [24345] 0+0: ## left connected but dead [9] <= caps.c:203
+07/22 15:54:01.01 [24345] 0+0: --beDaemon:[9]0 wcc=1 err=0 rdy=1 24344/1
+08/04 08:30:50.50 [24345] 12068+0: DeleGate SERVER EXITS: caught SIGTERM [15]
+08/04 08:30:50.79 [24345] 12068+0: --TERMINATION by SIGTERM 16080408+0100 (10+17:36:50) 9.9.13 on Linux/3.2.0-58-generic
+08/04 08:30:50.79 [24345] 12068+0: _execPath=/root/tor/delegate9.9.13/inst/dg9_9_13/DGROOT/bin/dg9_9_13
+08/04 08:30:50.79 [24345] 12068+0: Killpg(24345,15)
+08/04 08:30:51.31 [24345] 12068+0: unlinked /var/spool/delegate-nobody/work/3133/24345
+08/04 08:30:51.59 [24345] 12068+0: removed /var/spool/delegate-nobody/work/3133/
+08/04 08:30:51.66 [24345] 12068+0: RUSAGE: 89.05u 82.79s 0S 0R 11472r 0t 0d 0k 10471902e 300f 0w 15704i 289136o 0g 1643474x 4478y
+08/04 08:30:51.66 [24345] 12068+0: FINISH.
+08/04 08:30:51.79 [24345] 12068+0: #Sig/CSC finish 8 3 P1 R0 E0 {0 r0 t0} 0/0/0
